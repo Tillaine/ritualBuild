@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import { useState } from 'react'
+import GlobalThemeOverride from './theme/GlobalThemeOverride';
+import Landing from './features/Landing/Landing.js';
+import RitualSearch from './features/RitualSearch/RitualSearch.js';
 import './App.css';
 
 function App() {
+  const [page, setPage] = useState('landing');
+
+  const handlePageUpdate = (page) => setPage(page)
+
   return (
     <div className="App">
+      <GlobalThemeOverride>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {page === 'landing' && <Landing handlePageUpdate={handlePageUpdate}/>}
+        {page === 'search' && <RitualSearch/>}
       </header>
+      </GlobalThemeOverride>
     </div>
   );
 }
