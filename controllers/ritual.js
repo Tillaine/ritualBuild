@@ -1,27 +1,3 @@
-exports.getRitualOptions = (req, res, next) => {
-  // return an array of posts
-  res.status(200).json({
-    purpose: [
-      'abundance',
-      'luck',
-      'fertility',
-      'protection',
-      'travel',
-      'love',
-      'healing',
-      'griefe',
-      'communication',
-      'conflict'
-    ],
-    guides: [
-      'goodesses', 'gods', 'animals', 'angels',
-    ],
-    tools:
-    ['candles', 'insence', 'symbol', 'meditaion', 'crystal', 'element'  ]
-  })
-};
-
-//add relevant element trait for each type. 
 
 exports.getRitual = (req, res, next) => {
   // return an array of posts
@@ -34,7 +10,8 @@ exports.getRitual = (req, res, next) => {
     ]
   })
 };
- 
+
+
 exports.createRitual = (req, res, next) => {
   // get post's title and content from the request
   const title = req.body.title;

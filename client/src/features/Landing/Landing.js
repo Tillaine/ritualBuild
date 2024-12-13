@@ -7,7 +7,7 @@ function Landing({handlePageUpdate}) {
     <div className="Landing">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Breathe. Be Here. Begin
+          Be present. Breathe. Begin
         </p>
         <Button onClick={() => {handlePageUpdate('search')}} color="#724f7b" variant="text">Ritual Generator</Button>
 

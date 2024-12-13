@@ -5,11 +5,15 @@ const RitualSearch = () => {
     const [guides, setGuides] = useState([]);
     useEffect(() => {
       // Fetch data from the Express server
-      axios.get('http://localhost:5000/ritual/options')
-        .then(response => setGuides(response.data.guides))
+      axios.get('http://localhost:5000/options/options')
+        .then(response => {
+          console.log(response.data)
+          setGuides(response.data.guides)
+        })
+       
         .catch(error => console.error(error));
     }, []);
-    console.log(guides)
+    console.log({guides})
     return guides && (
       <div>
         <h1>Ritual Options</h1>
