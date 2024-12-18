@@ -6,6 +6,7 @@ const ritualRoutes = require('./routes/ritual');
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const mongoose = require('mongoose');
 const cors = require('cors');
+// const InitData = require('./models/seedData/InitData')
 
 // Server
 const app = express();
@@ -15,28 +16,8 @@ app.use(express.json());
 app.use('/ritual', ritualRoutes);
 app.use('/options', optionRoutes);
 // Connect to MongoDB
-const uri = `mongodb+srv://brittanybartges:${mongoKey}@mernlist.zg7wekf.mongodb.net/RitualBuild?retryWrites=true&w=majority&appName=mernList`;
-// Create a MongoClient with a MongoClientOptions object to set the Stable API version
-// const client = new MongoClient(uri, {
-//   serverApi: {
-//     version: ServerApiVersion.v1,
-//     strict: true,
-//     deprecationErrors: true,
-//   }
-// });
-// async function run() {
-//   try {
-//     // Connect the client to the server	(optional starting in v4.7)
-//     await client.connect();
-//     // Send a ping to confirm a successful connection
-//     await client.db("RitualBuild").command({ ping: 1 });
-//     console.log("Pinged your deployment. You successfully connected to MongoDB!");
-//   } finally {
-//     // Ensures that the client will close when you finish/error
-//     await client.close();
-//   }
-// }
-// run().catch(console.dir);
+const uri = `mongodb+srv://brittanybartges:${mongoKey}@mernlist.zg7wekf.mongodb.net/RitualBuild?retryWrites=true&w=majority`;
+
 
 mongoose.connect(uri)
 .then(() => {

@@ -1,6 +1,6 @@
 const mongoKey = process.env.DB_KEY;
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = `mongodb+srv://brittanybartges:${mongoKey}@mernlist.zg7wekf.mongodb.net/?retryWrites=true&w=majority&appName=mernList`;
+
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
   serverApi: {
