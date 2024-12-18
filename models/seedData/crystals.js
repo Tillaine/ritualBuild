@@ -1,234 +1,584 @@
 module.exports = [
     {
-        "Name": "Agate",
-        "Purpose": ["Balances yin-yang energy", "Stabilizes the aura", "Making a decision", "Strength", "Courage", "Creativity"]
+        "name": "agate",
+        "purpose": {
+            "balances yin-yang energy": true,
+            "stabilizes the aura": true,
+            "making a decision": true,
+            "strength": true,
+            "courage": true,
+            "creativity": true
+        }
     },
     {
-        "Name": "Amber",
-        "Purpose": ["Purification", "Energy flow", "Soothing", "Enhancing spirituality"]
+        "name": "amber",
+        "purpose": {
+            "purification": true,
+            "energy flow": true,
+            "soothing": true,
+            "enhancing spirituality": true
+        }
     },
     {
-        "Name": "Amethyst",
-        "Purpose": ["Relaxation", "Sleep", "Spirituality", "Contentment", "Stability", "Strength", "Peace", "Meditation", "Divination"]
+        "name": "amethyst",
+        "purpose": {
+            "relaxation": true,
+            "sleep": true,
+            "spirituality": true,
+            "contentment": true,
+            "stability": true,
+            "strength": true,
+            "peace": true,
+            "meditation": true,
+            "divination": true
+        }
     },
     {
-        "Name": "Aventurine",
-        "Purpose": ["Independence", "Leadership", "Creativity", "Balances masculine and feminine energies", "Aligns mental, physical, emotional, and auric bodies"]
+        "name": "aventurine",
+        "purpose": {
+            "independence": true,
+            "leadership": true,
+            "creativity": true,
+            "balances masculine and feminine energies": true,
+            "aligns mental, physical, emotional, and auric bodies": true
+        }
     },
     {
-        "Name": "Aquamarine",
-        "Purpose": ["Courage", "Intellect", "Protection", "Spiritual awareness", "Actualization"]
+        "name": "aquamarine",
+        "purpose": {
+            "courage": true,
+            "intellect": true,
+            "protection": true,
+            "spiritual awareness": true,
+            "actualization": true
+        }
     },
     {
-        "Name": "Azurite",
-        "Purpose": ["Divination", "Psychic ability", "Insight", "Intuition", "Third eye", "Quiet mind"]
+        "name": "azurite",
+        "purpose": {
+            "divination": true,
+            "psychic ability": true,
+            "insight": true,
+            "intuition": true,
+            "third eye": true,
+            "quiet mind": true
+        }
     },
     {
-        "Name": "Amazonite",
-        "Purpose": ["Balancing energy", "Harmony", "Universal love"]
+        "name": "amazonite",
+        "purpose": {
+            "balancing energy": true,
+            "harmony": true,
+            "universal love": true
+        }
     },
     {
-        "Name": "Calcite",
-        "Purpose": ["Energy amplifier", "Teacher", "Clearing", "Cleansing"]
+        "name": "calcite",
+        "purpose": {
+            "energy amplifier": true,
+            "teacher": true,
+            "clearing": true,
+            "cleansing": true
+        }
     },
     {
-        "Name": "Celestite",
-        "Purpose": ["Dream recall", "Astral travel", "Hope", "Harmony", "Communication"]
+        "name": "celestite",
+        "purpose": {
+            "dream recall": true,
+            "astral travel": true,
+            "hope": true,
+            "harmony": true,
+            "communication": true
+        }
     },
     {
-        "Name": "Chrysocolla",
-        "Purpose": ["Strength", "Balance", "Harmony", "Attunement to the earth", "Clear environment"]
+        "name": "chrysocolla",
+        "purpose": {
+            "strength": true,
+            "balance": true,
+            "harmony": true,
+            "attunement to the earth": true,
+            "clear environment": true
+        }
     },
     {
-        "Name": "Chrysoprase",
-        "Purpose": ["Balances yin-yang energy", "Accepting others", "Self-acceptance"]
+        "name": "chrysoprase",
+        "purpose": {
+            "balances yin-yang energy": true,
+            "accepting others": true,
+            "self-acceptance": true
+        }
     },
     {
-        "Name": "Citrine",
-        "Purpose": ["Positive energy", "Clears negative energy", "Warmth", "Joy", "Optimism"]
+        "name": "citrine",
+        "purpose": {
+            "positive energy": true,
+            "clears negative energy": true,
+            "warmth": true,
+            "joy": true,
+            "optimism": true
+        }
     },
     {
-        "Name": "Cobaltian Calcite",
-        "Purpose": ["Creativity", "Harmony", "Clears negative energy"]
+        "name": "cobaltian calcite",
+        "purpose": {
+            "creativity": true,
+            "harmony": true,
+            "clears negative energy": true
+        }
     },
     {
-        "Name": "Copal",
-        "Purpose": ["Intellect", "Altered states of consciousness", "Amplifies one's energy field"]
+        "name": "copal",
+        "purpose": {
+            "intellect": true,
+            "altered states of consciousness": true,
+            "amplifies one's energy field": true
+        }
     },
     {
-        "Name": "Danburite",
-        "Purpose": ["Intellect", "Communication", "Relationships", "Removes toxins"]
+        "name": "danburite",
+        "purpose": {
+            "intellect": true,
+            "communication": true,
+            "relationships": true,
+            "removes toxins": true
+        }
     },
     {
-        "Name": "Emerald",
-        "Purpose": ["Loyalty", "Sensitivity", "Harmony", "Tranquility", "Memory retention", "Mental clarity"]
+        "name": "emerald",
+        "purpose": {
+            "loyalty": true,
+            "sensitivity": true,
+            "harmony": true,
+            "tranquility": true,
+            "memory retention": true,
+            "mental clarity": true
+        }
     },
     {
-        "Name": "Epidote",
-        "Purpose": ["Enhances perception", "Personal power", "Awareness", "Abundance", "Healing"]
+        "name": "epidote",
+        "purpose": {
+            "enhances perception": true,
+            "personal power": true,
+            "awareness": true,
+            "abundance": true,
+            "healing": true
+        }
     },
     {
-        "Name": "Fairy Stone",
-        "Purpose": ["Good luck", "Protection against evil spirits", "Brings health", "Prosperity to the home"]
+        "name": "fairy stone",
+        "purpose": {
+            "luck": true,
+            "protection against evil spirits": true,
+            "protection": true,
+            "health": true,
+            "prosperity to the home": true,
+            "prosperity": true
+        }
     },
     {
-        "Name": "Fire Agate",
-        "Purpose": ["Spiritual flame", "Perfection", "Protects", "Dispels fears", "Progression", "Advancement", "Inspiration"]
+        "name": "fire agate",
+        "purpose": {
+            "spiritual flame": true,
+            "perfection": true,
+            "protects": true,
+            "dispels fears": true,
+            "progression": true,
+            "advancement": true,
+            "inspiration": true
+        }
     },
     {
-        "Name": "Fluorite",
-        "Purpose": ["Stability", "Order", "Discernment", "Concentration", "Mental clarity", "Perfection"]
+        "name": "fluorite",
+        "purpose": {
+            "stability": true,
+            "order": true,
+            "discernment": true,
+            "concentration": true,
+            "mental clarity": true,
+            "perfection": true
+        }
     },
     {
-        "Name": "Fuchsite",
-        "Purpose": ["Aids in the assessment of personal issues", "Enhances knowledge and decision making"]
+        "name": "fuchsite",
+        "purpose": {
+            "knowledge": true,
+            "decision making": true,
+            "wisdom": true,
+        }
     },
     {
-        "Name": "Garnet",
-        "Purpose": ["Commitment", "Devotion", "Love", "Stability", "Order", "Even flow of energy"]
+        "name": "garnet",
+        "purpose": {
+            "commitment": true,
+            "devotion": true,
+            "love": true,
+            "stability": true,
+            "order": true,
+            "even flow of energy": true
+        }
     },
     {
-        "Name": "Hematite",
-        "Purpose": ["Mental clarity", "Intellect", "Grounding"]
+        "name": "hematite",
+        "purpose": {
+            "mental clarity": true,
+            "intellect": true,
+            "grounding": true
+        }
     },
     {
-        "Name": "Herkimer Diamond",
-        "Purpose": ["Awareness", "Attunement", "Clairvoyance", "Telepathy", "Memory"]
+        "name": "herkimer diamond",
+        "purpose": {
+            "awareness": true,
+            "attunement": true,
+            "clairvoyance": true,
+            "telepathy": true,
+            "memory": true
+        }
     },
     {
-        "Name": "Howlite",
-        "Purpose": ["Memory", "Knowledge", "Progress", "Reasoning", "Observation", "Discernment", "Making a decision", "Patience", "Tact", "Pain relief", "Stress", "Anger"]
+        "name": "howlite",
+        "purpose": {
+            "memory": true,
+            "knowledge": true,
+            "progress": true,
+            "reasoning": true,
+            "wisdom": true,
+            "observation": true,
+            "discernment": true,
+            "making a decision": true,
+            "patience": true,
+            "tact": true,
+            "pain relief": true,
+            "stress": true,
+            "anger": true
+        }
     },
     {
-        "Name": "Kunzite",
-        "Purpose": ["Communication", "Love", "Peace", "Protects and dissolves negativity", "Excellent for meditation"]
+        "name": "kunzite",
+        "purpose": {
+            "communication": true,
+            "love": true,
+            "peace": true,
+            "protects and dissolves negativity": true,
+            "excellent for meditation": true
+        }
     },
     {
-        "Name": "Labradorite",
-        "Purpose": ["Extra-terrestrial energy", "Intuition", "Subconscious", "Illumination"]
+        "name": "labradorite",
+        "purpose": {
+            "extra-terrestrial energy": true,
+            "intuition": true,
+            "subconscious": true,
+            "illumination": true
+        }
     },
     {
-        "Name": "Lapis Lazuli",
-        "Purpose": ["Knowledge", "Wisdom", "Perfection", "Protection", "Creative expression"]
+        "name": "lapis lazuli",
+        "purpose": {
+            "knowledge": true,
+            "wisdom": true,
+            "perfection": true,
+            "protection": true,
+            "creative expression": true
+        }
     },
     {
-        "Name": "Lepidolite",
-        "Purpose": ["Honesty", "Stability", "Hope", "Acceptance", "Change", "Transition", "Astral travel"]
+        "name": "lepidolite",
+        "purpose": {
+            "honesty": true,
+            "stability": true,
+            "hope": true,
+            "acceptance": true,
+            "change": true,
+            "transition": true,
+            "astral travel": true
+        }
     },
     {
-        "Name": "Lingam Stone",
-        "Purpose": ["Kundalini", "Awakens chakras", "Balances male energy"]
+        "name": "lingam stone",
+        "purpose": {
+            "kundalini": true,
+            "awakens chakras": true,
+            "balances male energy": true
+        }
     },
     {
-        "Name": "Malachite",
-        "Purpose": ["Transformation", "Change", "Spiritual development", "Success", "Removes what hinders you", "Fidelity", "Loyalty", "Reasoning ability"]
+        "name": "malachite",
+        "purpose": {
+            "transformation": true,
+            "change": true,
+            "spiritual development": true,
+            "success": true,
+            "luck": true,
+            "removes what hinders you": true,
+            "fidelity": true,
+            "loyalty": true,
+            "reasoning": true,
+            "wisdom": true,
+        }
     },
     {
-        "Name": "Moldavite",
-        "Purpose": ["Clarity", "Eternity", "Extra-terrestrial", "Interdimensional access"]
+        "name": "moldavite",
+        "purpose": {
+            "clarity": true,
+            "eternity": true,
+            "extra-terrestrial": true,
+            "interdimensional access": true
+        }
     },
     {
-        "Name": "Moonstone",
-        "Purpose": ["Lunar", "Female energy", "Emotional", "Intuitive", "Rhythms", "Cycles", "Destiny"]
+        "name": "moonstone",
+        "purpose": {
+            "lunar": true,
+            "female energy": true,
+            "emotional": true,
+            "intuitive": true,
+            "rhythms": true,
+            "cycles": true,
+            "destiny": true
+        }
     },
     {
-        "Name": "Obsidian",
-        "Purpose": ["Dispels negativity", "Grounding", "Healing", "Protective", "Self improvement", "Self awareness"]
+        "name": "obsidian",
+        "purpose": {
+            "dispels negativity": true,
+            "grounding": true,
+            "healing": true,
+            "protective": true,
+            "self improvement": true,
+            "self awareness": true
+        }
     },
     {
-        "Name": "Onyx",
-        "Purpose": ["Centering", "Self-control", "Intuitive guidance", "Grieving"]
+        "name": "onyx",
+        "purpose": {
+            "centering": true,
+            "self-control": true,
+            "intuitive guidance": true,
+            "grieving": true
+        }
     },
     {
-        "Name": "Opal",
-        "Purpose": ["Creativity", "Inspiration", "Imagination"]
+        "name": "opal",
+        "purpose": {
+            "creativity": true,
+            "inspiration": true,
+            "imagination": true
+        }
     },
     {
-        "Name": "Peridot",
-        "Purpose": ["Healing", "Protective", "Change", "Acceptance", "Life cycles"]
+        "name": "peridot",
+        "purpose": {
+            "healing": true,
+            "protective": true,
+            "change": true,
+            "acceptance": true,
+            "life cycles": true
+        }
     },
     {
-        "Name": "Petrified Wood",
-        "Purpose": ["Grounding", "Provides strength", "Transition", "Change"]
+        "name": "petrified wood",
+        "purpose": {
+            "grounding": true,
+            "provides strength": true,
+            "transition": true,
+            "change": true
+        }
     },
     {
-        "Name": "Prehnite",
-        "Purpose": ["Dreaming", "Remembering", "Spirit communication", "Extraterrestrial communication", "Grid work", "Inspiration", "Prophecy"]
+        "name": "prehnite",
+        "purpose": {
+            "dreaming": true,
+            "remembering": true,
+            "spirit communication": true,
+            "extraterrestrial communication": true,
+            "grid work": true,
+            "inspiration": true,
+            "prophecy": true
+        }
     },
     {
-        "Name": "Pyrite",
-        "Purpose": ["Protection", "Intellect", "Memory", "The sun"]
+        "name": "pyrite",
+        "purpose": {
+            "protection": true,
+            "intellect": true,
+            "memory": true,
+            "the sun": true
+        }
     },
     {
-        "Name": "Clear Quartz Crystal",
-        "Purpose": ["Universal crystal", "Clear the mind"]
+        "name": "clear quartz crystal",
+        "purpose": {
+            "universal crystal": true,
+            "clear the mind": true
+        }
     },
     {
-        "Name": "Rose Quartz",
-        "Purpose": ["Love", "Compassion", "Appreciation", "Soothing calm"]
+        "name": "rose quartz",
+        "purpose": {
+            "love": true,
+            "compassion": true,
+            "appreciation": true,
+            "soothing calm": true
+        }
     },
     {
-        "Name": "Rhodochrosite",
-        "Purpose": ["Love", "Energy", "Balance"]
+        "name": "rhodochrosite",
+        "purpose": {
+            "love": true,
+            "energy": true,
+            "balance": true
+        }
     },
     {
-        "Name": "Ruby",
-        "Purpose": ["Loving", "Nurturing", "Spirituality", "Wealth", "Protection"]
+        "name": "ruby",
+        "purpose": {
+            "loving": true,
+            "nurturing": true,
+            "spirituality": true,
+            "wealth": true,
+            "protection": true
+        }
     },
     {
-        "Name": "Rutilated Quartz",
-        "Purpose": ["Intellect", "Inspiration", "Clairvoyance"]
+        "name": "rutilated quartz",
+        "purpose": {
+            "intellect": true,
+            "inspiration": true,
+            "clairvoyance": true
+        }
     },
     {
-        "Name": "Sapphire",
-        "Purpose": ["Joy", "Peace", "Beauty", "Prosperity"]
+        "name": "sapphire",
+        "purpose": {
+            "joy": true,
+            "peace": true,
+            "beauty": true,
+            "prosperity": true,
+        }
     },
     {
-        "Name": "Selenite",
-        "Purpose": ["Clarity of consciousness", "Awareness", "Insight", "Good judgement", "Past lives"]
+        "name": "selenite",
+        "purpose": {
+            "clarity of consciousness": true,
+            "awareness": true,
+            "insight": true,
+            "good judgement": true,
+            "past lives": true,
+            "wisdom": true,
+        }
     },
     {
-        "Name": "Silver",
-        "Purpose": ["Mirror to the soul", "Eloquence", "Connects physical and astral bodies", "Cleansing", "Balancing", "Lunar energy"]
+        "name": "silver",
+        "purpose": {
+            "mirror to the soul": true,
+            "eloquence": true,
+            "connects physical and astral bodies": true,
+            "cleansing": true,
+            "balancing": true,
+            "lunar energy": true
+        }
     },
     {
-        "Name": "Smoky Quartz",
-        "Purpose": ["Dissolves negativity", "Grounding", "Balancing", "Excellent for meditation"]
+        "name": "smoky quartz",
+        "purpose": {
+            "dissolves negativity": true,
+            "grounding": true,
+            "balancing": true,
+            "excellent for meditation": true
+        }
     },
     {
-        "Name": "Sodalite",
-        "Purpose": ["Logic", "Efficiency", "Truthfulness", "Group communication"]
+        "name": "sodalite",
+        "purpose": {
+            "logic": true,
+            "efficiency": true,
+            "truthfulness": true,
+            "group communication": true
+        }
     },
     {
-        "Name": "Staurolite",
-        "Purpose": ["Luck", "Stress relief", "Antidepressant", "Astral plane", "Extra-terrestrial planes"]
+        "name": "staurolite",
+        "purpose": {
+            "luck": true,
+            "stress relief": true,
+            "antidepressant": true,
+            "astral plane": true,
+            "extra-terrestrial planes": true
+        }
     },
     {
-        "Name": "Tanzanite",
-        "Purpose": ["Protection", "Safety", "Personal power", "Actualization", "Communication", "Psychic power", "Visions", "Psychic work"]
+        "name": "tanzanite",
+        "purpose": {
+            "protection": true,
+            "safety": true,
+            "personal power": true,
+            "actualization": true,
+            "communication": true,
+            "psychic power": true,
+            "visions": true,
+            "psychic work": true
+        }
     },
     {
-        "Name": "Tigereye",
-        "Purpose": ["Earthy", "Grounding", "Sun", "Earth", "Optimism", "Insight", "Personal power"]
+        "name": "tigereye",
+        "purpose": {
+            "earthy": true,
+            "grounding": true,
+            "sun": true,
+            "earth": true,
+            "optimism": true,
+            "insight": true,
+            "personal power": true
+        }
     },
     {
-        "Name": "Topaz",
-        "Purpose": ["Success", "True love", "Individuality", "Creativity", "Joy"]
+        "name": "topaz",
+        "purpose": {
+            "success": true,
+            "luck": true,
+            "true love": true,
+            "individuality": true,
+            "creativity": true,
+            "joy": true
+        }
     },
     {
-        "Name": "Tourmaline",
-        "Purpose": ["Inspiration", "Understanding", "Self-confidence", "Balancing", "Electrical"]
+        "name": "tourmaline",
+        "purpose": {
+            "inspiration": true,
+            "understanding": true,
+            "self-confidence": true,
+            "balancing": true,
+            "electrical": true
+        }
     },
     {
-        "Name": "Tourmalinated Quartz",
-        "Purpose": ["Strength", "Balancing"]
+        "name": "tourmalinated quartz",
+        "purpose": {
+            "strength": true,
+            "balancing": true
+        }
     },
     {
-        "Name": "Vanadinite",
-        "Purpose": ["Mental clarity", "Intellect", "Memory", "Meditation", "Controlled life", "Saving money"]
+        "name": "vanadinite",
+        "purpose": {
+            "mental clarity": true,
+            "intellect": true,
+            "memory": true,
+            "meditation": true,
+            "controlled life": true,
+            "saving money": true
+        }
     },
     {
-        "Name": "Zircon",
-        "Purpose": ["Virtue", "Unification", "Continuity", "Purity"]
+        "name": "zircon",
+        "purpose": {
+            "virtue": true,
+            "unification": true,
+            "continuity": true,
+            "purity": true
+        }
     }
 ]

@@ -1,1 +1,1 @@
-module.exports = ["Healing", "Wisdom", "Love", "Luck", "Transformation", "Protection"]
+module.exports = ["healing", "wisdom", "love", "luck", "transformation", "protection"]

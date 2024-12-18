@@ -1,132 +1,553 @@
-module.exports = [
+[
     {
-      "Animal": ["Bats"],
-      "Purpose": ["rebirth", "reincarnation", "ritual death", "initiation", "confronting fear", "letting go of old habits", "happiness", "good luck", "health", "wealth", "long life", "peace", "unhappiness", "unrest", "chaos", "incomplete understanding", "avoiding obstacles", "transformation", "past lives"],
-      "goddess": ["Shou-Hsing", "the Underworld"]
+      "animal": "bats",
+      "purpose": {
+        "rebirth": true,
+        "reincarnation": true,
+        "ritual death": true,
+        "initiation": true,
+        "confronting fear": true,
+        "letting go of old habits": true,
+        "happiness": true,
+        "luck": true,
+        "health": true,
+        "wealth": true,
+        "long life": true,
+        "peace": true,
+        "unhappiness": true,
+        "unrest": true,
+        "chaos": true,
+        "incomplete understanding": true,
+        "avoiding obstacles": true,
+        "transformation": true,
+        "past lives": true
+      },
+      "goddess": "shou-hsing, the underworld."
     },
     {
-      "Animal": ["Bears"],
-      "Purpose": ["healing", "divinity", "invulnerability", "spirit helper", "protection", "introspection", "truth", "receptive energy", "prophesy", "stamina", "harmony", "patience", "defense", "revenge", "transformation", "intuition", "answers from the Dreamworld", "benevolence", "strength", "bravery"],
-      "goddess": ["Artemis", "Zeus", "Callisto", "Dea Artia", "Thor", "Odhinn", "Freya"]
+      "animal": "bears",
+      "purpose": {
+        "healing": true,
+        "divinity": true,
+        "invulnerability": true,
+        "spirit helper": true,
+        "protection": true,
+        "introspection": true,
+        "truth": true,
+        "receptive energy": true,
+        "prophesy": true,
+        "stamina": true,
+        "harmony": true,
+        "patience": true,
+        "defense": true,
+        "revenge": true,
+        "transformation": true,
+        "intuition": true,
+        "answers from the dreamworld": true,
+        "benevolence": true,
+        "strength": true,
+        "bravery": true
+      },
+      "goddess": "artemis, zeus, callisto, dea artia, thor, odhinn, freya"
     },
     {
-      "Animal": ["Cat"],
-      "Purpose": ["protectors", "strength", "cunning", "agility", "aloofness", "independence", "seeing spirits"]
+      "animal": "cat",
+      "purpose": {
+        "protectors": true,
+        "strength": true,
+        "cunning": true,
+        "agility": true,
+        "aloofness": true,
+        "independence": true,
+        "seeing spirits": true
+      },
+      "goddess": ""
     },
     {
-      "Animal": ["Coyote"],
-      "Purpose": ["self awareness", "humor", "whimsy", "night", "shape-shifting", "opportunity", "stealth", "creativity", "experience"]
+      "animal": "coyote",
+      "purpose": {
+        "self awareness": true,
+        "humor": true,
+        "whimsy": true,
+        "night": true,
+        "shape-shifting": true,
+        "opportunity": true,
+        "stealth": true,
+        "creativity": true,
+        "experience": true
+      },
+      "goddess": ""
     },
     {
-      "Animal": ["Deer"],
-      "Purpose": ["gentleness", "grace", "swiftness", "abundance", "intuition", "introspection", "alternative paths to a goal", "messages from guides", "love", "safety", "serenity", "sun", "fertility"],
-      "goddess": ["Artemis", "Aphrodite", "Athene", "Diana", "El Aphaia", "Dionysus", "Apollo", "Vayu", "Lu-Hsing", "Cernunnos", "Cocidius", "Shou-Hsien"]
+      "animal": "deer",
+      "purpose": {
+        "gentleness": true,
+        "grace": true,
+        "swiftness": true,
+        "abundance": true,
+        "intuition": true,
+        "introspection": true,
+        "alternative paths to a goal": true,
+        "messages from guides": true,
+        "love": true,
+        "safety": true,
+        "serenity": true,
+        "sun": true,
+        "fertility": true
+      },
+      "goddess": "artemis, aphrodite, athene, diana, el aphaia, dionysus, apollo, vayu, lu-hsing, cernunnos, cocidius, shou-hsien."
     },
     {
-      "Animal": ["Dogs"],
-      "Purpose": ["service", "protection", "loyalty", "friendship", "unconditional love", "compassion", "understanding", "tracking", "companionship", "intuition", "truth"],
-      "goddess": ["Gula", "Belit-ili", "Astarte", "Ashtoreth", "Amenti", "Cybelle", "Artemis", "Diana", "Hecate", "Celtic Mother Goddesses", "Arawn", "Nodens", "Hel", "Odhinn", "Saramam", "moon goddesses", "Quetzalcoatl", "Xolotl"]
+      "animal": "dogs",
+      "purpose": {
+        "service": true,
+        "protection": true,
+        "loyalty": true,
+        "friendship": true,
+        "unconditional love": true,
+        "compassion": true,
+        "understanding": true,
+        "tracking": true,
+        "companionship": true,
+        "intuition": true,
+        "truth": true
+      },
+      "goddess": "gula, belit-ili, astarte, ashtoreth, amenti, cybelle, artemis, diana, hecate, celtic mother goddesses, arawn, nodens, hel, odhinn, saramam, moon goddesses, quetzalcoatl, and xolotl."
     },
     {
-      "Animal": ["Praying Mantis"],
-      "Purpose": ["strength", "adaptability", "communication"]
+      "animal": "praying mantis",
+      "purpose": {
+        "strength": true,
+        "adaptability": true,
+        "communication": true
+      },
+      "goddess": ""
     },
     {
-      "Animal": ["Rabbit"],
-      "Purpose": ["altered consciousness", "fertility", "mystery", "long life", "intellect", "intuition", "anxiety"],
-      "goddess": ["Eostra", "Holda", "Andraste", "Freya", "Hermes", "Aphrodite", "Eros", "Chandra"]
+      "animal": "rabbit",
+      "purpose": {
+        "altered consciousness": true,
+        "fertility": true,
+        "mystery": true,
+        "long life": true,
+        "intellect": true,
+        "intuition": true,
+        "anxiety": true
+      },
+      "goddess": "eostra, holda, andraste, freya, hermes, aphrodite, eros, chandra"
     },
     {
-      "Animal": ["Raccoon"],
-      "Purpose": ["ingenuity", "adaptability", "generosity", "caring for others", "benevolence", "humility", "gratitude", "creativity", "playfulness", "curiosity", "innovation", "new jobs", "schooling", "career change", "protectors of the vulnerable"]
+        "animal": "frog / toad",
+        "purpose": {
+          "feminine energy": true,
+          "fecundity": true,
+          "water": true,
+          "new life": true,
+          "new beginnings": true,
+          "mystery of creation": true,
+          "creation": true,
+          "cleansing": true,
+          "refreshing": true,
+          "purifying": true,
+          "refilling": true,
+          "clearing negativity": true,
+          "replenishment": true,
+          "positive energy": true,
+          "transformation": true,
+          "beginning a new cycle": true,
+          "beginnings": true,
+          "long life": true,
+          "luck": true,
+          "prosperity": true
+        },
+        "goddess": "heket, isis, hathor, ch'ing-wa sheng, aphrodite, sabazius, ahirman"
+      }
+      
+    {
+      "animal": "raccoon",
+      "purpose": {
+        "ingenuity": true,
+        "adaptability": true,
+        "generosity": true,
+        "caring for others": true,
+        "benevolence": true,
+        "humility": true,
+        "gratitude": true,
+        "creativity": true,
+        "playfulness": true,
+        "curiosity": true,
+        "innovation": true,
+        "new jobs": true,
+        "schooling": true,
+        "career change": true,
+        "protectors of the vulnerable": true
+      },
+      "goddess": ""
     },
     {
-      "Animal": ["Rats"],
-      "Purpose": ["fertility", "wealth", "cunning", "timidity", "meanness", "wisdom", "ingenuity", "prudence", "foresight"],
-      "goddess": ["Daikoku", "Ganesha"]
+      "animal": "rats",
+      "purpose": {
+        "fertility": true,
+        "wealth": true,
+        "cunning": true,
+        "timidity": true,
+        "meanness": true,
+        "wisdom": true,
+        "ingenuity": true,
+        "prudence": true,
+        "foresight": true
+      },
+      "goddess": "daikoku and ganesha."
     },
     {
-      "Animal": ["Whales"],
-      "Purpose": ["elegance", "ancient teachings", "history", "clairaudience", "telepathy", "psychic abilities", "sound", "music healing", "death", "rebirth", "initiation", "the waters of life", "regeneration", "the sea", "music", "longevity", "family", "friends", "community", "learning magick", "elemental magick", "trust"],
-      "goddess": ["Derceto"]
+      "animal": "whales",
+      "purpose": {
+        "elegance": true,
+        "ancient teachings": true,
+        "history": true,
+        "clairaudience": true,
+        "telepathy": true,
+        "psychic abilities": true,
+        "sound": true,
+        "music healing": true,
+        "death": true,
+        "rebirth": true,
+        "initiation": true,
+        "the waters of life": true,
+        "regeneration": true,
+        "the sea": true,
+        "music": true,
+        "longevity": true,
+        "family": true,
+        "friends": true,
+        "community": true,
+        "learning magick": true,
+        "elemental magick": true,
+        "trust": true
+      },
+      "goddess": "derceto."
     },
     {
-      "Animal": ["Butterflies"],
-      "Purpose": ["joy", "freedom", "living in the moment", "transformation", "rebirth", "intellect", "mental powers", "reincarnation", "magick", "life cycle divination", "understanding stage of life", "inspiration", "immortality", "leisure", "beauty in old age", "longevity", "love", "happiness", "falseness", "vanity", "the soul"],
-      "goddess": ["the element of Air", "Horae", "Xochiquetzal"]
+      "animal": "butterflies",
+      "purpose": {
+        "joy": true,
+        "freedom": true,
+        "living in the moment": true,
+        "transformation": true,
+        "rebirth": true,
+        "intellect": true,
+        "mental powers": true,
+        "reincarnation": true,
+        "magick": true,
+        "life cycle divination": true,
+        "understanding stage of life": true,
+        "inspiration": true,
+        "immortality": true,
+        "leisure": true,
+        "beauty in old age": true,
+        "longevity": true,
+        "love": true,
+        "happiness": true,
+        "falseness": true,
+        "vanity": true,
+        "the soul": true
+      },
+      "goddess": "the element of air, horae, xochiquetzal"
     },
     {
-      "Animal": ["Falcon"],
-      "Purpose": ["freedom", "speed", "speed in action", "farsightedness", "magick", "astral travel", "clear vision", "healing", "hospice", "death"],
-      "goddess": ["Horus", "Circe", "Ra", "Menthu", "Freya", "Odhinn"]
+      "animal": "falcon",
+      "purpose": {
+        "freedom": true,
+        "speed": true,
+        "speed in action": true,
+        "farsightedness": true,
+        "magick": true,
+        "astral travel": true,
+        "clear vision": true,
+        "healing": true,
+        "hospice": true,
+        "death": true
+      },
+      "goddess": "horus, circe, ra, menthu, freya, and odhinn"
     },
     {
-      "Animal": ["Hawk"],
-      "Purpose": ["observation", "perception", "messages from the spirit world", "big picture", "using your talents", "meeting potential", "omens", "dreams", "courage", "defense", "wisdom", "illumination", "truth", "experience"],
-      "goddess": ["Horus", "Ptah", "Rehu", "Seker", "Amenti", "Apollo", "Artemis", "Indra", "Ahura Mazda", "Mithras"]
+      "animal": "hawk",
+      "purpose": {
+        "observation": true,
+        "perception": true,
+        "messages from the spirit world": true,
+        "big picture": true,
+        "using your talents": true,
+        "meeting potential": true,
+        "omens": true,
+        "dreams": true,
+        "courage": true,
+        "defense": true,
+        "wisdom": true,
+        "illumination": true,
+        "truth": true,
+        "experience": true
+      },
+      "goddess": "horus, ptah, rehu, seker, amenti, apollo, artemis, indra, ahura mazda, and mithras."
     },
     {
-      "Animal": ["Owl"],
-      "Purpose": ["wisdom", "the ability to see things that are hidden", "stealth", "swiftness", "darkness", "freedom", "dreams", "shape-shifting", "secrets", "omens", "clairvoyance", "astral projection", "magick", "deception", "observation", "total truth", "night", "death", "misfortune"],
-      "goddess": ["The Goddess", "Athena", "Mari", "Lilith", "Anath", "Gwynn ap Nudd", "Blodeuwedd", "Yama", "Cailleach"]
+      "animal": "owl",
+      "purpose": {
+        "wisdom": true,
+        "ability to see things that are hidden": true,
+        "stealth": true,
+        "swiftness": true,
+        "darkness": true,
+        "freedom": true,
+        "dreams": true,
+        "shape-shifting": true,
+        "secrets": true,
+        "omens": true,
+        "clairvoyance": true,
+        "astral projection": true,
+        "magick": true,
+        "deception": true,
+        "observation": true,
+        "total truth": true,
+        "night": true,
+        "death": true,
+        "misfortune": true
+      },
+      "goddess": "the goddess, athena, mari, lilith, anath, gwynn ap nudd, blodeuwedd, yama, cailleach."
     },
     {
-      "Animal": ["Hummingbird"],
-      "Purpose": ["freedom", "freedom of movement", "energy", "tireless joy", "joy", "impossible outcomes", "joy of learning", "joy of experience", "flowers", "love", "beauty", "art", "relaxation", "fearlessness"],
-      "goddess": ["Quetzalcoatl", "Huitzilopochtli"]
+      "animal": "hummingbird",
+      "purpose": {
+        "freedom": true,
+        "freedom of movement": true,
+        "energy": true,
+        "tireless joy": true,
+        "joy": true,
+        "impossible outcomes": true,
+        "joy of learning": true,
+        "joy of experience": true,
+        "flowers": true,
+        "love": true,
+        "beauty": true,
+        "art": true,
+        "relaxation": true,
+        "fearlessness": true
+      },
+      "goddess": "quetzalcoatl, huitzilopochtli."
     },
     {
-      "Animal": ["Wolf"],
-      "Purpose": ["family", "teaching", "co-operation", "insight", "stealth", "strength", "leadership", "loyalty", "freedom", "individuality", "psychic energy connected to the moon", "hidden wisdom", "moon", "sharing knowledge and wisdom", "cunning", "hunting", "seeking", "introspection", "listening", "magick", "dreams"],
-      "goddess": ["moon", "Wepwawet", "Zeus Lycaeus", "Apollo", "Ares", "Mars", "Silvanus", "Cernunnos", "Odhinn"]
+      "animal": "wolf",
+      "purpose": {
+        "family": true,
+        "teaching": true,
+        "co-operation": true,
+        "insight": true,
+        "stealth": true,
+        "strength": true,
+        "leadership": true,
+        "loyalty": true,
+        "freedom": true,
+        "individuality": true,
+        "psychic energy connected to the moon": true,
+        "moon": true,
+        "sharing knowledge and wisdom": true,
+        "cunning": true,
+        "hunting": true,
+        "seeking": true,
+        "introspection": true,
+        "listening": true,
+        "magick": true,
+        "dreams": true
+      },
+      "goddess": "moon, wepwawet, zeus lycaeus, apollo, ares, mars, silvanus, cernunnos, odhinn."
     },
     {
-      "Animal": ["Raven"],
-      "Purpose": ["magick", "inner fears", "the spirit world", "a change in consciousness", "healing", "mischievousness", "adaptability", "intelligence", "ingenuity", "death", "war", "bloodshed", "battle", "divination", "destruction required for creation", "messages to spirits"],
-      "goddess": ["messengers of the spirit world", "Crone", "Sun", "Odhinn", "Apollo", "Athene", "Cronus", "Asclepias", "Brahma", "Morrigan", "Babd", "Nantosuelta", "Lugh"]
+      "animal": "raven",
+      "purpose": {
+        "magick": true,
+        "inner fears": true,
+        "spirit world": true,
+        "change in consciousness": true,
+        "healing": true,
+        "dispelling \"dis-ease\"": true,
+        "the unknown": true,
+        "mischievousness": true,
+        "adaptability": true,
+        "intelligence": true,
+        "ingenuity": true,
+        "death": true,
+        "war": true,
+        "bloodshed": true,
+        "battle": true,
+        "divination": true,
+        "destruction required for creation": true,
+        "messages to spirits": true
+      },
+      "goddess": "they are the messengers of the spirit world, crone, sun, odhinn, apollo, athene, cronus, asclepias, brahma, morrigan, babd, nantosuelta, lugh"
     },
     {
-      "Animal": ["Crows"],
-      "Purpose": ["resourcefulness", "survival", "death", "law", "supernatural", "mystery", "creation", "shape-shifting", "change", "harmony", "justice", "integrity", "bad omens", "boldness", "skill", "cunning", "prophecy", "eloquence", "divination"],
-      "goddess": ["tricksters", "Morrigan", "Varuna", "Rhea Kronia", "Apollo", "Hermes", "Macha", "Babd"]
+      "animal": "crows",
+      "purpose": {
+        "resourcefulness": true,
+        "survival": true,
+        "death": true,
+        "law": true,
+        "supernatural": true,
+        "mystery": true,
+        "creation": true,
+        "shape-shifting": true,
+        "change": true,
+        "harmony": true,
+        "justice": true,
+        "integrity": true,
+        "bad omens": true,
+        "boldness": true,
+        "skill": true,
+        "cunning": true,
+        "prophecy": true,
+        "eloquence": true,
+        "divination": true
+      },
+      "goddess": "they are tricksters connected to morrigan, varuna, rhea kronia, apollo, hermes, macha, and babd."
     },
     {
-      "Animal": ["Seal"],
-      "Purpose": ["playfulness", "parenting", "sea travel protection", "life change", "divorce", "traumatic separation", "gossip", "danger"]
+      "animal": "seal",
+      "purpose": {
+        "playfulness": true,
+        "parenting": true,
+        "sea travel protection": true,
+        "life change": true,
+        "divorce": true,
+        "traumatic separation": true,
+        "gossip": true,
+        "danger": true
+      },
+      "goddess": ""
     },
     {
-      "Animal": ["Fish"],
-      "Purpose": ["love", "fertility", "victory over death", "healing", "prophesy", "abundance", "wealth", "harmony", "regeneration", "children", "pregnancy", "bringing love into your life"],
-      "goddess": ["the Moon", "Water", "Atargatis", "Ishtar", "Derceto", "Isis", "Aphrodite", "Freyja", "Venus", "Dagon", "Poseidon", "Kuan Yin"]
+      "animal": "fish",
+      "purpose": {
+        "love": true,
+        "fertility": true,
+        "victory over death": true,
+        "healing": true,
+        "prophesy": true,
+        "abundance": true,
+        "wealth": true,
+        "harmony": true,
+        "regeneration": true,
+        "children": true,
+        "pregnancy": true,
+        "bringing love into your life": true
+      },
+      "goddess": "the moon, to water, atargatis, ishtar, derceto, isis, aphrodite, freyja, venus, dagon, poseidon, and kuan yin."
     },
     {
-      "Animal": ["Turtle"],
-      "Purpose": ["longevity", "strength", "endurance", "wisdom", "patience", "knowledge of the defensive position", "goddess energy", "grounding", "shielding", "treachery", "perseverance", "slowing down to enjoy life"],
-      "goddess": ["earth (turtle and tortoise)", "water (turtle)", "moon", "Prajapati", "P'an Ku", "Pan", "Aphrodite", "Venu", "Hermes", "Mercury"]
+      "animal": "turtle",
+      "purpose": {
+        "longevity": true,
+        "strength": true,
+        "endurance": true,
+        "wisdom": true,
+        "patience": true,
+        "knowledge of the defensive position": true,
+        "goddess energy": true,
+        "grounding": true,
+        "shielding treachery": true,
+        "perseverance": true,
+        "slowing down to enjoy life": true
+      },
+      "goddess": "the elements of earth(turtle and tortoise), water(turtle), and the moon. prajapati, p'an ku, pan, aphrodite, venu, hermes, and mercury."
     },
     {
-      "Animal": ["Spider"],
-      "Purpose": ["weavers", "tricksters", "fate", "creative energy", "female energy", "wisdom", "creativity", "new life", "entanglement", "caution", "divine inspiration", "starting a project", "becoming pregnant", "being industrious", "warning signals", "illusions warning"],
-      "goddess": ["Neith", "Ishtar", "Atargatis", "Athene", "the Fates", "the Norns", "Holda", "Inktomi", "Kokyangwuti", "Tsitsi Nako", "Sussistanako"]
+      "animal": "spider",
+      "purpose": {
+        "weavers": true,
+        "tricksters": true,
+        "fate": true,
+        "creative energy": true,
+        "female energy": true,
+        "wisdom": true,
+        "creativity": true,
+        "new life": true,
+        "entanglement": true,
+        "caution": true,
+        "divine inspiration": true,
+        "starting a project": true,
+        "becoming pregnant": true,
+        "being industrious": true,
+        "warning signals": true,
+        "illusions warning": true
+      },
+      "goddess": "neith, ishtar, atargatis, athene, the fates, the norns, holda, inktomi, kokyangwuti, tsitsi nako, and sussistanako."
     },
     {
-      "Animal": ["Snakes"],
-      "Purpose": ["knowledge", "change", "creation", "wisdom", "secrets", "mystery", "reincarnation", "immortality", "sexuality", "reproduction", "the element of Fire", "duality", "solar/lunar", "good/evil", "healing/poison", "life/death/rebirth"],
-      "goddess": ["Great Mother Goddesses", "Isis", "Thoth", "Apep", "Hermes", "Sabazius", "Bel", "Ra", "Ahriman", "Mithras", "Kadi", "Kadru", "Akkadian Ninhursag", "Atargatis", "Syria", "Asclepias", "Hygeia", "Persephone", "Apollo", "Hera", "Athene", "Hecate", "Gaea", "Domovoj", "Shakti", "Ananta", "Susanoo", "Uga-Jin", "Nu Kua", "Fu Xi", "Brigit", "Quetzalcoatl", "Kukulcan", "Coatlicue", "Coyolxauhqui", "Huitzilopochtli", "Julunggul"]
+      "animal": "snakes",
+      "purpose": {
+        "knowledge": true,
+        "change": true,
+        "creation": true,
+        "wisdom": true,
+        "secrets": true,
+        "mystery": true,
+        "reincarnation": true,
+        "immortality": true,
+        "sexuality": true,
+        "reproduction": true,
+        "the element of fire": true,
+        "duality": true,
+        "solar/lunar": true,
+        "good/evil": true,
+        "healing/poison": true,
+        "life/death/rebirth": true
+      },
+      "goddess": "they are an early symbol of the great mother goddesses. isis, thoth, apep, hermes, sabazius, bel, ra, ahriman, mithras, kadi, kadru, akkadian ninhursag, atargatis, syria, asclepias, hygeia, persephone, apollo, hera, athene, hecate, gaea, domovoj, shakti, ananta, susanoo, uga-jin, nu kua, fu xi, brigit, quetzalcoatl, kukulcan, coatlicue, coyolxauhqui, huitzilopochtli, and julunggul"
     },
     {
-      "Animal": ["Swans"],
-      "Purpose": ["grace", "healing", "altered states", "intuition", "transformation", "transitions", "spiritual evolution", "hunches", "omens", "spiritual divination", "dignity", "monogamy", "loyalty", "silence"],
-      "goddess": ["Apollo", "Aphrodite", "the Muses", "Venus", "Zeus", "Aphrodite", "Sarasvati", "Brahma", "Devi"]
+      "animal": "swans",
+      "purpose": {
+        "grace": true,
+        "healing": true,
+        "altered states": true,
+        "intuition": true,
+        "transformation": true,
+        "transitions": true,
+        "spiritual evolution": true,
+        "hunches": true,
+        "omens": true,
+        "spiritual divination": true,
+        "dignity": true,
+        "monogamy": true,
+        "loyalty": true,
+        "silence": true
+      },
+      "goddess": "apollo, aphrodite, the muses, venus, zeus, aphrodite, sarasvati, brahma, devi."
     },
     {
-      "Animal": ["Squirrels"],
-      "Purpose": ["gathering", "foresight", "energy", "erratic behavior", "storing", "gossip", "warning", "change", "discovery", "truth", "balance", "harmony", "mischief"],
-      "goddess": ["warn you to be careful of useless hoarding", "teach you to take life lightly"]
+      "animal": "squirrels",
+      "purpose": {
+        "gathering": true,
+        "foresight": true,
+        "energy": true,
+        "erratic behavior": true,
+        "storing": true,
+        "gossip": true,
+        "warning": true,
+        "change": true,
+        "discovery": true,
+        "truth": true,
+        "balance": true,
+        "harmony": true,
+        "mischief": true
+      },
+      "goddess": "they warn you to be careful of useless hoarding and teach you to take life lightly."
     },
     {
-      "Animal": ["Stag"],
-      "Purpose": ["Warrior"]
+      "animal": "stag",
+      "purpose": {
+        "warrior": true
+      },
+      "goddess": ""
     }
   ]
   

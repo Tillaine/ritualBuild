@@ -1,253 +1,450 @@
 module.exports = [
     {
-      "Name": "Macha",
-      "Symbol": "crows",
-      "Religion": "Celtic",
-      "Purpose": ["war", "fertility", "life", "creation", "fate", "destiny"],
-      "Gender": "F"
+      "name": "macha",
+      "symbol": "crows",
+      "religion": "celtic",
+      "purpose": {
+        "war": true,
+        "fertility": true,
+        "life": true,
+        "creation": true,
+        "fate": true,
+        "destiny": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Cerridwen",
-      "Symbol": "cauldron",
-      "Religion": "Celtic",
-      "Purpose": ["rebirth", "transformation", "inspiration", "knowledge"],
-      "Gender": "F"
+      "name": "cerridwen",
+      "symbol": "cauldron",
+      "religion": "celtic",
+      "purpose": {
+        "rebirth": true,
+        "transformation": true,
+        "inspiration": true,
+        "knowledge": true,
+        "wisdom": true,
+      },
+      "gender": "f"
     },
     {
-      "Name": "Tyche / Fortuna",
-      "Symbol": "Ball",
-      "Religion": "Greek / Roman",
-      "Purpose": ["Luck", "Fortune", "success"],
-      "Gender": "F"
+      "name": "tyche / fortuna",
+      "symbol": "ball",
+      "religion": "greek / roman",
+      "purpose": {
+        "luck": true,
+        "fortune": true,
+        "success": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Plutus",
-      "Symbol": "cornucopia",
-      "Religion": "Greek",
-      "Purpose": ["Wealth"],
-      "Gender": "M"
+      "name": "plutus",
+      "symbol": "cornucopia",
+      "religion": "greek",
+      "purpose": {
+        "wealth": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "Cernunnos",
-      "Symbol": "Bag of coins",
-      "Religion": "Celtic/ Roman",
-      "Purpose": ["Wealth"],
-      "Gender": "M"
+      "name": "cernunnos",
+      "symbol": "bag of coins",
+      "religion": "celtic/ roman",
+      "purpose": {
+        "wealth": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "Moneta",
-      "Symbol": "coin",
-      "Religion": "Roman",
-      "Purpose": ["Fortune", "Wealth", "Adviser"],
-      "Gender": "F"
+      "name": "moneta",
+      "symbol": "coin",
+      "religion": "roman",
+      "purpose": {
+        "fortune": true,
+        "luck": true,
+        "wealth": true,
+        "adviser": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Kubera",
-      "Symbol": "Bag of coins",
-      "Religion": "Hinduism",
-      "Purpose": ["Fortune", "Abundance"],
-      "Gender": "M"
+      "name": "kubera",
+      "symbol": "bag of coins",
+      "religion": "hinduism",
+      "purpose": {
+        "fortune": true,
+        "luck": true,
+        "abundance": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "Abundantia / Copia",
-      "Symbol": "cornucopia that was filled with grain and coins",
-      "Religion": "",
-      "Purpose": ["Fortune", "Abundance", "Wealth"],
-      "Gender": "F"
+      "name": "abundantia / copia",
+      "symbol": "cornucopia that was filled with grain and coins",
+      "religion": "",
+      "purpose": {
+        "fortune": true,
+        "luck": true,
+        "abundance": true,
+        "wealth": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Áine",
-      "Symbol": "red mare",
-      "Religion": "Celtic",
-      "Purpose": ["summer", "wealth", "Freedom"],
-      "Gender": "F"
+      "name": "áine",
+      "symbol": "red mare",
+      "religion": "celtic",
+      "purpose": {
+        "summer": true,
+        "wealth": true,
+        "freedom": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Dian Cécht",
-      "Symbol": "Serpent",
-      "Religion": "Celtic",
-      "Purpose": ["Healing", "power", "herbalism"],
-      "Gender": "M"
+      "name": "dian cécht",
+      "symbol": "serpent",
+      "religion": "celtic",
+      "purpose": {
+        "healing": true,
+        "power": true,
+        "herbalism": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "Nodens",
-      "Symbol": "dog",
-      "Religion": "Celtic",
-      "Purpose": ["Healing"],
-      "Gender": "M"
+      "name": "nodens",
+      "symbol": "dog",
+      "religion": "celtic",
+      "purpose": {
+        "healing": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "Brigid",
-      "Symbol": "Brigid's cross",
-      "Religion": "Celtic",
-      "Purpose": ["healing", "divination", "poetry", "smiths", "childbirth"],
-      "Gender": "F"
+      "name": "brigid",
+      "symbol": "brigid's cross",
+      "religion": "celtic",
+      "purpose": {
+        "healing": true,
+        "divination": true,
+        "poetry": true,
+        "smiths": true,
+        "childbirth": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Damara",
-      "Symbol": "flowers",
-      "Religion": "Celtic",
-      "Purpose": ["fertility", "health", "luck", "kindness", "abundance", "May"],
-      "Gender": "F"
+      "name": "damara",
+      "symbol": "flowers",
+      "religion": "celtic",
+      "purpose": {
+        "fertility": true,
+        "health": true,
+        "luck": true,
+        "kindness": true,
+        "abundance": true,
+        "may": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Bastet (Bast)",
-      "Symbol": "Cat",
-      "Religion": "Egyptian",
-      "Purpose": ["protection", "pleasure", "health"],
-      "Gender": "F"
+      "name": "bastet (bast)",
+      "symbol": "cat",
+      "religion": "egyptian",
+      "purpose": {
+        "protection": true,
+        "pleasure": true,
+        "health": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Durga",
-      "Symbol": "Lion / Tiger",
-      "Religion": "Hinduism",
-      "Purpose": ["protection", "strength", "motherhood", "destruction", "wars", "liberation of the oppressed"],
-      "Gender": "F"
+      "name": "durga",
+      "symbol": "lion / tiger",
+      "religion": "hinduism",
+      "purpose": {
+        "protection": true,
+        "strength": true,
+        "motherhood": true,
+        "destruction": true,
+        "wars": true,
+        "liberation of the oppressed": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Hermes",
-      "Symbol": "caduceus",
-      "Religion": "Greek",
-      "Purpose": ["protector of human heralds", "travelers", "thieves", "merchants", "orators"],
-      "Gender": "M"
+      "name": "hermes",
+      "symbol": "caduceus",
+      "religion": "greek",
+      "purpose": {
+        "protector of human heralds": true,
+        "travelers": true,
+        "thieves": true,
+        "merchants": true,
+        "orators": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "Eirene",
-      "Symbol": "Spring Fruit",
-      "Religion": "Greek",
-      "Purpose": ["Peace"],
-      "Gender": "F"
+      "name": "eirene",
+      "symbol": "spring fruit",
+      "religion": "greek",
+      "purpose": {
+        "peace": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Frey",
-      "Symbol": "boar",
-      "Religion": "",
-      "Purpose": ["fertility", "peace", "good weather", "pleasure"],
-      "Gender": "M"
+      "name": "frey",
+      "symbol": "boar",
+      "religion": "",
+      "purpose": {
+        "fertility": true,
+        "peace": true,
+        "good weather": true,
+        "pleasure": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "Athena",
-      "Symbol": "Owl",
-      "Religion": "Greek",
-      "Purpose": ["wisdom", "war", "handicraft"],
-      "Gender": "F"
+      "name": "athena",
+      "symbol": "owl",
+      "religion": "greek",
+      "purpose": {
+        "wisdom": true,
+        "war": true,
+        "handicraft": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Saraswati",
-      "Symbol": "Saraswati Yantra, Swan",
-      "Religion": "Hinduism",
-      "Purpose": ["knowledge", "education", "learning", "arts", "speech", "poetry", "music", "purification", "culture"],
-      "Gender": "F"
+      "name": "saraswati",
+      "symbol": "saraswati yantra, swan",
+      "religion": "hinduism",
+      "purpose": {
+        "knowledge": true,
+        "education": true,
+        "wisdom": true,
+        "learning": true,
+        "arts": true,
+        "speech": true,
+        "poetry": true,
+        "music": true,
+        "purification": true,
+        "culture": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Odin",
-      "Symbol": "Valknut",
-      "Religion": "Norse",
-      "Purpose": ["wisdom", "healing", "frenzy"],
-      "Gender": "M"
+      "name": "odin",
+      "symbol": "valknut",
+      "religion": "norse",
+      "purpose": {
+        "wisdom": true,
+        "healing": true,
+        "frenzy": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "Enki",
-      "Symbol": "eagle",
-      "Religion": "Sumerian",
-      "Purpose": ["water", "knowledge", "crafts", "creation"],
-      "Gender": "M"
+      "name": "enki",
+      "symbol": "eagle",
+      "religion": "sumerian",
+      "purpose": {
+        "water": true,
+        "knowledge": true,
+        "wisdom": true,
+        "crafts": true,
+        "creation": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "Atargatis",
-      "Symbol": "fish",
-      "Religion": "Syria",
-      "Purpose": ["protection", "well-being", "fertility"],
-      "Gender": "F"
+      "name": "atargatis",
+      "symbol": "fish",
+      "religion": "syria",
+      "purpose": {
+        "protection": true,
+        "well-being": true,
+        "fertility": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Astarte or Ishtar",
-      "Symbol": "lion, chariot, horse",
-      "Religion": "Semitic",
-      "Purpose": ["war", "sexuality", "political power", "beauty", "healing"],
-      "Gender": "F"
+      "name": "astarte or ishtar",
+      "symbol": "lion, chariot, horse",
+      "religion": "semitic",
+      "purpose": {
+        "war": true,
+        "sexuality": true,
+        "political power": true,
+        "beauty": true,
+        "healing": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Isis",
-      "Symbol": "Wings",
-      "Religion": "Egypt",
-      "Purpose": ["healing", "mourning", "death"],
-      "Gender": "F"
+      "name": "isis",
+      "symbol": "wings",
+      "religion": "egypt",
+      "purpose": {
+        "healing": true,
+        "mourning": true,
+        "death": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Hecate",
-      "Symbol": "pair of torches",
-      "Religion": "Greek",
-      "Purpose": ["crossroads", "night", "light", "magic", "protection from witchcraft", "drugs", "Moon"],
-      "Gender": "F"
+      "name": "hecate",
+      "symbol": "pair of torches",
+      "religion": "greek",
+      "purpose": {
+        "crossroads": true,
+        "night": true,
+        "light": true,
+        "magic": true,
+        "protection from witchcraft": true,
+        "drugs": true,
+        "moon": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Diana",
-      "Symbol": "bow and arrow",
-      "Religion": "Roman",
-      "Purpose": ["wild animals", "hunting", "moon", "birth", "protector of the poor", "protector of slaves"],
-      "Gender": "F"
+      "name": "diana",
+      "symbol": "bow and arrow",
+      "religion": "roman",
+      "purpose": {
+        "wild animals": true,
+        "hunting": true,
+        "moon": true,
+        "birth": true,
+        "protector of the poor": true,
+        "protector of slaves": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Demeter",
-      "Symbol": "Wheat ears",
-      "Religion": "Greek",
-      "Purpose": ["Earth", "harvest", "health", "birth", "marriage", "agriculture", "family", "food"],
-      "Gender": "F"
+      "name": "demeter",
+      "symbol": "wheat ears",
+      "religion": "greek",
+      "purpose": {
+        "earth": true,
+        "harvest": true,
+        "health": true,
+        "birth": true,
+        "marriage": true,
+        "agriculture": true,
+        "family": true,
+        "food": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Kali",
-      "Symbol": "Sword",
-      "Religion": "Hinduism",
-      "Purpose": ["Death", "change", "goddess of time", "doomsday", "violence", "feminine empowerment"],
-      "Gender": "F"
+      "name": "kali",
+      "symbol": "sword",
+      "religion": "hinduism",
+      "purpose": {
+        "death": true,
+        "change": true,
+        "goddess of time": true,
+        "doomsday": true,
+        "violence": true,
+        "feminine empowerment": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Harriet Tubman",
-      "Symbol": "Broken Chains",
-      "Religion": "United States Hero",
-      "Purpose": ["leadership", "freedom", "bravery", "escape", "cunning", "resistance"],
-      "Gender": "F"
+      "name": "harriet tubman",
+      "symbol": "broken chains",
+      "religion": "united states hero",
+      "purpose": {
+        "leadership": true,
+        "freedom": true,
+        "bravery": true,
+        "escape": true,
+        "cunning": true,
+        "resistance": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Yeshua",
-      "Symbol": "fish",
-      "Religion": "Semitic",
-      "Purpose": ["peace", "healing", "anti-capitalism", "charity", "compassion", "humility", "service", "justice", "forgiveness", "mercy"],
-      "Gender": "M"
+      "name": "yeshua",
+      "symbol": "fish",
+      "religion": "semitic",
+      "purpose": {
+        "peace": true,
+        "healing": true,
+        "anti-capitalism": true,
+        "charity": true,
+        "compassion": true,
+        "humility": true,
+        "service": true,
+        "justice": true,
+        "forgiveness": true,
+        "mercy": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "Mary",
-      "Symbol": "Letter M",
-      "Religion": "Semitic",
-      "Purpose": ["Motherhood", "independence", "strength", "emotional strength", "grief"],
-      "Gender": "F"
+      "name": "mary",
+      "symbol": "letter m",
+      "religion": "semitic",
+      "purpose": {
+        "motherhood": true,
+        "independence": true,
+        "strength": true,
+        "emotional strength": true,
+        "grief": true
+      },
+      "gender": "f"
     },
     {
-      "Name": "Horned god",
-      "Symbol": "Horns",
-      "Religion": "wicca",
-      "Purpose": ["masculinity", "wilderness", "virility", "hunting"],
-      "Gender": "M"
+      "name": "horned god",
+      "symbol": "horns",
+      "religion": "wicca",
+      "purpose": {
+        "masculinity": true,
+        "wilderness": true,
+        "virility": true,
+        "hunting": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "green man",
-      "Symbol": "foliate heads",
-      "Religion": "wicca",
-      "Purpose": ["rebirth", "spring", "nature"],
-      "Gender": "M"
+      "name": "green man",
+      "symbol": "foliate heads",
+      "religion": "wicca",
+      "purpose": {
+        "rebirth": true,
+        "spring": true,
+        "nature": true
+      },
+      "gender": "m"
     },
     {
-      "Name": "Sedna",
-      "Symbol": "Mermaid",
-      "Religion": "Inuit",
-      "Purpose": ["sea", "marine animals", "bisexuality", "lesbianism"],
+      "name": "sedna",
+      "symbol": "mermaid",
+      "religion": "inuit",
+      "purpose": {
+        "sea": true,
+        "marine animals": true,
+        "bisexuality": true,
+        "lesbianism": true
+      }
     },
     {
-        "Name": "Mawu-Lisa",
-        "Symbol": "Moon and sun together",
-        "Religion": "Vodún",
-        "Purpose": ["gender diversity", "intersex", "transgender", "balance of masculine and feminine", "moderation", "peacekeeping"],
-        "Gender": "N"
+      "name": "mawu-lisa",
+      "symbol": "moon and sun together",
+      "religion": "vodún",
+      "purpose": {
+        "gender diversity": true,
+        "intersex": true,
+        "transgender": true,
+        "balance of masculine and feminine": true,
+        "moderation": true,
+        "peacekeeping": true
+      },
+      "gender": "n"
     }
-     ]
+];
