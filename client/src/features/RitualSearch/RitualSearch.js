@@ -5,6 +5,12 @@ const RitualSearch = () => {
     const [guides, setGuides] = useState([]);
     useEffect(() => {
       // Fetch data from the Express server
+
+      const moonPhaseSchema = new mongoose.Schema({
+        Phase: { type: String, required: true },
+        Purpose: { type: mongoose.Schema.Types.Mixed, required: true } // Allows arbitrary keys
+      });
+
       axios.get('http://localhost:5000/options/options')
         .then(response => {
           console.log(response.data)

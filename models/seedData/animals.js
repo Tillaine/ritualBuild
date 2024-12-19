@@ -1,6 +1,6 @@
-[
+module.exports = [
     {
-      "animal": "bats",
+      "name": "bats",
       "purpose": {
         "rebirth": true,
         "reincarnation": true,
@@ -8,6 +8,7 @@
         "initiation": true,
         "confronting fear": true,
         "letting go of old habits": true,
+        "break bad habits": true,
         "happiness": true,
         "luck": true,
         "health": true,
@@ -25,7 +26,7 @@
       "goddess": "shou-hsing, the underworld."
     },
     {
-      "animal": "bears",
+      "name": "bears",
       "purpose": {
         "healing": true,
         "divinity": true,
@@ -51,7 +52,7 @@
       "goddess": "artemis, zeus, callisto, dea artia, thor, odhinn, freya"
     },
     {
-      "animal": "cat",
+      "name": "cat",
       "purpose": {
         "protectors": true,
         "strength": true,
@@ -64,7 +65,7 @@
       "goddess": ""
     },
     {
-      "animal": "coyote",
+      "name": "coyote",
       "purpose": {
         "self awareness": true,
         "humor": true,
@@ -79,7 +80,7 @@
       "goddess": ""
     },
     {
-      "animal": "deer",
+      "name": "deer",
       "purpose": {
         "gentleness": true,
         "grace": true,
@@ -98,7 +99,7 @@
       "goddess": "artemis, aphrodite, athene, diana, el aphaia, dionysus, apollo, vayu, lu-hsing, cernunnos, cocidius, shou-hsien."
     },
     {
-      "animal": "dogs",
+      "name": "dogs",
       "purpose": {
         "service": true,
         "protection": true,
@@ -115,7 +116,7 @@
       "goddess": "gula, belit-ili, astarte, ashtoreth, amenti, cybelle, artemis, diana, hecate, celtic mother goddesses, arawn, nodens, hel, odhinn, saramam, moon goddesses, quetzalcoatl, and xolotl."
     },
     {
-      "animal": "praying mantis",
+      "name": "praying mantis",
       "purpose": {
         "strength": true,
         "adaptability": true,
@@ -124,7 +125,7 @@
       "goddess": ""
     },
     {
-      "animal": "rabbit",
+      "name": "rabbit",
       "purpose": {
         "altered consciousness": true,
         "fertility": true,
@@ -137,7 +138,7 @@
       "goddess": "eostra, holda, andraste, freya, hermes, aphrodite, eros, chandra"
     },
     {
-        "animal": "frog / toad",
+        "name": "frog / toad",
         "purpose": {
           "feminine energy": true,
           "fecundity": true,
@@ -161,10 +162,9 @@
           "prosperity": true
         },
         "goddess": "heket, isis, hathor, ch'ing-wa sheng, aphrodite, sabazius, ahirman"
-      }
-      
+      }, 
     {
-      "animal": "raccoon",
+      "name": "raccoon",
       "purpose": {
         "ingenuity": true,
         "adaptability": true,
@@ -185,7 +185,7 @@
       "goddess": ""
     },
     {
-      "animal": "rats",
+      "name": "rats",
       "purpose": {
         "fertility": true,
         "wealth": true,
@@ -200,7 +200,7 @@
       "goddess": "daikoku and ganesha."
     },
     {
-      "animal": "whales",
+      "name": "whales",
       "purpose": {
         "elegance": true,
         "ancient teachings": true,
@@ -211,6 +211,7 @@
         "sound": true,
         "music healing": true,
         "death": true,
+        "transition": true,
         "rebirth": true,
         "initiation": true,
         "the waters of life": true,
@@ -228,7 +229,7 @@
       "goddess": "derceto."
     },
     {
-      "animal": "butterflies",
+      "name": "butterflies",
       "purpose": {
         "joy": true,
         "freedom": true,
@@ -242,6 +243,7 @@
         "life cycle divination": true,
         "understanding stage of life": true,
         "inspiration": true,
+        "transition": true,
         "immortality": true,
         "leisure": true,
         "beauty in old age": true,
@@ -255,7 +257,7 @@
       "goddess": "the element of air, horae, xochiquetzal"
     },
     {
-      "animal": "falcon",
+      "name": "falcon",
       "purpose": {
         "freedom": true,
         "speed": true,
@@ -271,7 +273,7 @@
       "goddess": "horus, circe, ra, menthu, freya, and odhinn"
     },
     {
-      "animal": "hawk",
+      "name": "hawk",
       "purpose": {
         "observation": true,
         "perception": true,
@@ -291,7 +293,7 @@
       "goddess": "horus, ptah, rehu, seker, amenti, apollo, artemis, indra, ahura mazda, and mithras."
     },
     {
-      "animal": "owl",
+      "name": "owl",
       "purpose": {
         "wisdom": true,
         "ability to see things that are hidden": true,
@@ -316,7 +318,7 @@
       "goddess": "the goddess, athena, mari, lilith, anath, gwynn ap nudd, blodeuwedd, yama, cailleach."
     },
     {
-      "animal": "hummingbird",
+      "name": "hummingbird",
       "purpose": {
         "freedom": true,
         "freedom of movement": true,
@@ -336,7 +338,7 @@
       "goddess": "quetzalcoatl, huitzilopochtli."
     },
     {
-      "animal": "wolf",
+      "name": "wolf",
       "purpose": {
         "family": true,
         "teaching": true,
@@ -362,12 +364,13 @@
       "goddess": "moon, wepwawet, zeus lycaeus, apollo, ares, mars, silvanus, cernunnos, odhinn."
     },
     {
-      "animal": "raven",
+      "name": "raven",
       "purpose": {
         "magick": true,
         "inner fears": true,
         "spirit world": true,
         "change in consciousness": true,
+        "transformation": true,
         "healing": true,
         "dispelling \"dis-ease\"": true,
         "the unknown": true,
@@ -386,7 +389,7 @@
       "goddess": "they are the messengers of the spirit world, crone, sun, odhinn, apollo, athene, cronus, asclepias, brahma, morrigan, babd, nantosuelta, lugh"
     },
     {
-      "animal": "crows",
+      "name": "crows",
       "purpose": {
         "resourcefulness": true,
         "survival": true,
@@ -397,6 +400,7 @@
         "creation": true,
         "shape-shifting": true,
         "change": true,
+        "transformation": true,
         "harmony": true,
         "justice": true,
         "integrity": true,
@@ -411,7 +415,7 @@
       "goddess": "they are tricksters connected to morrigan, varuna, rhea kronia, apollo, hermes, macha, and babd."
     },
     {
-      "animal": "seal",
+      "name": "seal",
       "purpose": {
         "playfulness": true,
         "parenting": true,
@@ -425,7 +429,7 @@
       "goddess": ""
     },
     {
-      "animal": "fish",
+      "name": "fish",
       "purpose": {
         "love": true,
         "fertility": true,
@@ -443,7 +447,7 @@
       "goddess": "the moon, to water, atargatis, ishtar, derceto, isis, aphrodite, freyja, venus, dagon, poseidon, and kuan yin."
     },
     {
-      "animal": "turtle",
+      "name": "turtle",
       "purpose": {
         "longevity": true,
         "strength": true,
@@ -460,7 +464,7 @@
       "goddess": "the elements of earth(turtle and tortoise), water(turtle), and the moon. prajapati, p'an ku, pan, aphrodite, venu, hermes, and mercury."
     },
     {
-      "animal": "spider",
+      "name": "spider",
       "purpose": {
         "weavers": true,
         "tricksters": true,
@@ -482,10 +486,11 @@
       "goddess": "neith, ishtar, atargatis, athene, the fates, the norns, holda, inktomi, kokyangwuti, tsitsi nako, and sussistanako."
     },
     {
-      "animal": "snakes",
+      "name": "snakes",
       "purpose": {
         "knowledge": true,
         "change": true,
+        "transition": true,
         "creation": true,
         "wisdom": true,
         "secrets": true,
@@ -497,6 +502,7 @@
         "the element of fire": true,
         "duality": true,
         "solar/lunar": true,
+        "transformation": true,
         "good/evil": true,
         "healing/poison": true,
         "life/death/rebirth": true
@@ -504,7 +510,7 @@
       "goddess": "they are an early symbol of the great mother goddesses. isis, thoth, apep, hermes, sabazius, bel, ra, ahriman, mithras, kadi, kadru, akkadian ninhursag, atargatis, syria, asclepias, hygeia, persephone, apollo, hera, athene, hecate, gaea, domovoj, shakti, ananta, susanoo, uga-jin, nu kua, fu xi, brigit, quetzalcoatl, kukulcan, coatlicue, coyolxauhqui, huitzilopochtli, and julunggul"
     },
     {
-      "animal": "swans",
+      "name": "swans",
       "purpose": {
         "grace": true,
         "healing": true,
@@ -524,7 +530,7 @@
       "goddess": "apollo, aphrodite, the muses, venus, zeus, aphrodite, sarasvati, brahma, devi."
     },
     {
-      "animal": "squirrels",
+      "name": "squirrels",
       "purpose": {
         "gathering": true,
         "foresight": true,
@@ -534,6 +540,7 @@
         "gossip": true,
         "warning": true,
         "change": true,
+        "transformation": true,
         "discovery": true,
         "truth": true,
         "balance": true,
@@ -543,7 +550,7 @@
       "goddess": "they warn you to be careful of useless hoarding and teach you to take life lightly."
     },
     {
-      "animal": "stag",
+      "name": "stag",
       "purpose": {
         "warrior": true
       },

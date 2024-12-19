@@ -6,6 +6,7 @@ const ritualRoutes = require('./routes/ritual');
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const mongoose = require('mongoose');
 const cors = require('cors');
+//uncomment below to seed mongo
 // const InitData = require('./models/seedData/InitData')
 
 // Server

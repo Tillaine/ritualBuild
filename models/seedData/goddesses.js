@@ -19,6 +19,7 @@ module.exports = [
       "religion": "celtic",
       "purpose": {
         "rebirth": true,
+        "change": true,
         "transformation": true,
         "inspiration": true,
         "knowledge": true,
@@ -305,6 +306,7 @@ module.exports = [
         "light": true,
         "magic": true,
         "protection from witchcraft": true,
+        "protection": true,
         "drugs": true,
         "moon": true
       },
@@ -347,6 +349,7 @@ module.exports = [
       "purpose": {
         "death": true,
         "change": true,
+        "transformation": true,
         "goddess of time": true,
         "doomsday": true,
         "violence": true,

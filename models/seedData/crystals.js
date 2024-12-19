@@ -181,7 +181,7 @@ module.exports = [
         "purpose": {
             "spiritual flame": true,
             "perfection": true,
-            "protects": true,
+            "protection": true,
             "dispels fears": true,
             "progression": true,
             "advancement": true,
@@ -260,7 +260,8 @@ module.exports = [
             "communication": true,
             "love": true,
             "peace": true,
-            "protects and dissolves negativity": true,
+            "clears negativity": true,
+            "protection": true,
             "excellent for meditation": true
         }
     },
@@ -292,6 +293,7 @@ module.exports = [
             "acceptance": true,
             "change": true,
             "transition": true,
+            "transformation": true,
             "astral travel": true
         }
     },
@@ -345,7 +347,7 @@ module.exports = [
             "dispels negativity": true,
             "grounding": true,
             "healing": true,
-            "protective": true,
+            "protection": true,
             "self improvement": true,
             "self awareness": true
         }
@@ -371,8 +373,9 @@ module.exports = [
         "name": "peridot",
         "purpose": {
             "healing": true,
-            "protective": true,
+            "protection": true,
             "change": true,
+            "transformation": true,
             "acceptance": true,
             "life cycles": true
         }
@@ -383,6 +386,7 @@ module.exports = [
             "grounding": true,
             "provides strength": true,
             "transition": true,
+            "transformation": true,
             "change": true
         }
     },
