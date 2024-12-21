@@ -199,7 +199,7 @@ module.exports = [
     {
       "name": "frey",
       "symbol": "boar",
-      "religion": "",
+      "religion": "norse",
       "purpose": {
         "fertility": true,
         "peace": true,
@@ -434,7 +434,8 @@ module.exports = [
         "marine animals": true,
         "bisexuality": true,
         "lesbianism": true
-      }
+      },
+      "gender": "f"
     },
     {
       "name": "mawu-lisa",
