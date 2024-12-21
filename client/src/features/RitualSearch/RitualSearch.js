@@ -1,33 +1,48 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Box from '@mui/material/Box';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select, { SelectChangeEvent } from '@mui/material/Select';
 
 const RitualSearch = () => {
-    const [guides, setGuides] = useState([]);
+    const [purposes, setPurposes] = useState([]);
+    const [formData, setFormData] = useState({purpose: ''});
+
+    const handlePurposeSelect = e => {
+      setFormData({...formData, ...{ purpose: e.target.value }})
+    }
+
     useEffect(() => {
       // Fetch data from the Express server
-
-      const moonPhaseSchema = new mongoose.Schema({
-        Phase: { type: String, required: true },
-        Purpose: { type: mongoose.Schema.Types.Mixed, required: true } // Allows arbitrary keys
-      });
-
+      
       axios.get('http://localhost:5000/options/options')
         .then(response => {
           console.log(response.data)
-          setGuides(response.data.purpose)
+          setPurposes(response.data.purpose.purpose)
         })
        
         .catch(error => console.error(error));
     }, []);
-    console.log({guides})
-    return guides && (
+    console.log({purposes})
+    return purposes && (
       <div>
         <h1>Ritual Options</h1>
-        <ul>
-          {guides.map((guide) => (
-            <li key={guide}>{guide}</li>
+        <FormControl fullWidth>
+  <InputLabel id="demo-simple-select-label">Purpose/ Intention</InputLabel>
+  <Select
+    labelId="demo-simple-select-label"
+    id="demo-simple-select"
+    value={formData.purpose}
+    label="Purpose"
+    onChange={handlePurposeSelect}
+  >
+{purposes.map((purpose) => (
+    <MenuItem value={purpose}>{purpose}</MenuItem>
           ))}
-        </ul>
+  </Select>
+</FormControl>
       </div>
     );
   };

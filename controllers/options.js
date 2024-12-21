@@ -1,20 +1,10 @@
 const Purpose = require('../models/purpose');
+const purpose = require('../models/seedData/purpose');
 
 exports.getRitualOptions = (req, res, next) => {
     // return an array of posts
     res.status(200).json({
-      purpose: [
-        'abundance',
-        'luck',
-        'fertility',
-        'protection',
-        'travel',
-        'love',
-        'healing',
-        'griefe',
-        'communication',
-        'conflict'
-      ]
+      purpose
     })
   };
 
