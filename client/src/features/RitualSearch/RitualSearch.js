@@ -19,8 +19,8 @@ const RitualSearch = () => {
       
       axios.get('http://localhost:5000/options/options')
         .then(response => {
-          console.log(response.data)
-          setPurposes(response.data.purpose.purpose)
+          console.log("data" ,response.data)
+          setPurposes(response.data.purpose)
         })
        
         .catch(error => console.error(error));
